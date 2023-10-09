@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Young+Serif&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.navbar{
+    padding: 1.3vw;
+    border: .2vw solid rgb(110, 2, 2);
+    background-color: rgb(209, 147, 25);
+}
+
+.links1{
+    border-radius: 10vw;
+    background-color: black;
+    margin: .9vw;
+    border: .1vw solid black;
+    text-transform: uppercase;
+    display: inline;
+    padding: .5vw;
+    transition: 0.4s;
+}
+
+.links1 a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.15vw;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.links1:hover{
+    transition: 0.3s;
+    font-size: larger;
+    padding: 1vw;
+}
+
+#linkgroup1{
+    text-align: right;
+}
+
+.logo img{
+    position: absolute;
+    left: 8%;
+    top: 1.5%;
+    width: 3vw;
+    border: .1vw solid black;
+    border-radius: 5vw;
+}
+
+.banner{
+    background-image: url(images/BannerCS-2.png);
+    background-size: cover;
+    height: 81vh;
+}
+
+.footer{
+    background-color: rgb(209, 147, 25);
+    padding: 1vw;
+    border: .1vw solid rgb(110, 2, 2);
+
+}
+
+.piclink img{
+    width: 2vw;
+}
+
+.piclink{
+    margin: .2vw;
+    display: inline;
+}
+
+#piclinks{
+    text-align: right;
+}
+
+.cr p{
+    position: absolute;
+    bottom: 4%;
+    font-size: .7vw;
+}
+
+.memzdabest img{
+    margin: 2.42vw;
+    text-align: center;
+    border: .1vw solid rgb(240, 233, 233);
+    border-radius: 3.5vw;
+    width: 11vw;
+}
+
+.head{
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: chocolate;
+    border: .2.4vw solid black;
+    border-radius: 5vw;
+    margin: .1vw;
+    text-align: center;
+    font-size: 1.3vw;
+}
